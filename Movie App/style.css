@@ -1,0 +1,67 @@
+ body{
+     background-color: black;
+ }
+.card{
+  height: 390px;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#imgdiv{
+    width:90%;
+    height: 100%;  
+}
+#img{
+  width: 100%;
+  height: 100%;
+}
+.card-body p{
+  color: white;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 3%;
+  background-color: black;
+
+}
+#MovieCard{
+  padding: 10px;
+  text-align: left;
+  background-color: black;
+}
+
+#imageContainer2{
+ height: 100%;
+ width: 100%;
+
+}
+
+#imgg{
+  background-size: cover;
+  background-position: center;
+ height: 100%;
+ width: 100%;
+
+}
+.well{
+  color: white;
+}
+
+/* @media only screen and (max-width: 1000px) {
+  body{
+   
+  }
+} */
+
+
+/* <div class="card">
+<div class="card-body">
+ <div id="imgdiv">
+    <img id="img" src="${movie.Poster}">
+ </div>
+</div>
+<div class="card-footer">
+  <h5>${movie.Title}</h5>
+  <a onclick="movieSelected('${movie.imdbID}')" class="btn btn-primary" href="#">Movie Details</a>
+</div>
+</div> */
